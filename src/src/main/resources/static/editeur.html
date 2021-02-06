@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Editeur</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script charset="utf-8" src="/js/app.js"></script>
+<script charset="utf-8" src="/js/editeur.js"></script>
+<link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+<div class="container">
+<div class="header">
+
+	<h1>Editeur</h1>
+    </div><test />
+	<form action="http://localhost:3306/editeur/" method="post"
+		id="editeur-form">
+
+		<div class="table">
+		<div class="row">
+				<div class="col-label">
+					<label for="id">ID</label>
+				</div>
+				<div class="col-field">
+					<input class="input-text" name="id" value="" />
+					</div>
+					</div>
+			<div class="row">
+				<div class="col-label">
+					<label for="name">Name</label>
+				</div>
+				<div class="col-field">
+					<input class="input-text" name="name" value="" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-label">
+					<label for="address">Address</label>
+				</div>
+				<div class="col-field">
+					<input class="input-text" name="address" value="" />
+				</div>
+			</div>
+			<div class="row">
+				<button id="submit-editeur" type="submit">Salva</button>
+			</div>
+		</div>
+		<div id="xhr-message"></div>
+	</form>
+	<div id="results"></div>
+	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+
+<head>
+<meta charset="utf-8" />
+<title>Auteur</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<script charset="utf-8" src="/js/app.js"></script>
+<script charset="utf-8" src="/js/auteur.js"></script>
+<link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+<div class="container">
+<div class="header">
+
+	<h1>Auteur</h1>
+    </div><test />
+	<form action="http://localhost:3306/auteur/" method="post"
+		id="auteur-form">
+
+		<div class="table">
+		<div class="row">
+				<div class="col-label">
+					<label for="id">ID</label>
+				</div>
+				<div class="col-field">
+					<input class="input-text" name="id" value="" />
+					</div>
+					</div>
+			<div class="row">
+				<div class="col-label">
+					<label for="name">Name</label>
+				</div>
+				<div class="col-field">
+					<input class="input-text" name="name" value="" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-label">
+					<label for="email">Email</label>
+				</div>
+				<div class="col-field">
+					<input class="input-text" name="email" value="" />
+				</div>
+			</div>
+			<div class="row">
+				<button id="submit-auteur" type="submit">Salva</button>
+			</div>
+		</div>
+		<div id="xhr-message"></div>
+	</form>
+	<div id="results"></div>
+	
+</div>
+
+</body>
+</html>
