@@ -15,7 +15,6 @@ import it.esedra.corso.biblioteca.entity.Auteur;
 
 public class AuteurController {
 
-	
 	@Autowired // This means to get the bean called userRepository
 	private AuteurRepository auteurRepository;
 
